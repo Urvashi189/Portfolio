@@ -26,3 +26,24 @@ nav ul li{
 .left{
     font-size: 1.8rem;
 }
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+}
+.firstsection div{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0;
+    width: 30%;
+}
+.leftsection{
+    background-color:red;
+    display: flex;
+    font-size: 3rem;
+}
+.rightsection img{
+    width: 50%;
+    height: auto;
+    margin: 50px 0;
+}
