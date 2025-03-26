@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Urvi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>  
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection"> 
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Urvi</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png" alt="">
+            </div> 
+        </section>
+        <hr>
+        <section class="secondsection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>WORK EXPERIENCE</h1>
+
+        <div class="box">
+            <div class="vertical">
+                <img class="image-top" src="developer.png" alt="">
+                <div class="vertical-title">
+                    WEB DEVELOPER (2023-2025)
+                </div>
+                <div class="vertical-desc">
+                    Developed web interfaces using HTML,CSS, and JavaScript.
+                    Built optimized landing pages ensuring cross-browser compatibility.
+                    Participated in development programs to enhance skills.
+                </div>
+            </div>
+            <div class="vertical">
+                <img class="image-top" src="uxui.png" alt="">
+                <div class="vertical-title">
+                    UI/UX DESIGNER (2022-2023)
+                </div>
+                <div class="vertical-desc">
+                    As a recent graduate with a passion for creating intuitive and
+                    user-centered designs. My coursework in UX UI Design has
+                    equipped me with a deep understanding of user research,
+                    wireframing, prototyping, and usability testing.
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Urvi's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; urvisportfolio.com | All rights reserved
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+        strings: ['Web Developer', 'Ui Ux Designer'],
+        typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
